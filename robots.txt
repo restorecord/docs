@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://localhost/sitemap.xml.gz
+Sitemap: https://docs.restorecord.com/sitemap.xml.gz
