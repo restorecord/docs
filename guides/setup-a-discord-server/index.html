@@ -3,40 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.3.0.710091571286">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.711318954517">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 2.3.0">
+    <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>How to add OAuth2 Link</title>
-    <meta name="title" content="How to add OAuth2 Link">
-    <meta name="description" content="<ol>\n<li>Navigate to https://discord.com/developers/applications</li>\n</ol>\n" />
+    <title>Setup A Discord Server</title>
+    <meta name="title" content="Setup A Discord Server">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.restorecord.com/guides/add-oauth2-link/" />
+    <link rel="canonical" href="https://docs.restorecord.com/guides/setup-a-discord-server/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.restorecord.com/guides/add-oauth2-link/">
-    <meta property="og:title" content="How to add OAuth2 Link">
-    <meta property="og:description" content="<ol>\n<li>Navigate to https://discord.com/developers/applications</li>\n</ol>\n">
-    <meta property="og:image" content="https://docs.restorecord.com/static/1.png">
+    <meta property="og:url" content="https://docs.restorecord.com/guides/setup-a-discord-server/">
+    <meta property="og:title" content="Setup A Discord Server">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.restorecord.com/guides/add-oauth2-link/">
-    <meta property="twitter:title" content="How to add OAuth2 Link">
-    <meta property="twitter:description" content="<ol>\n<li>Navigate to https://discord.com/developers/applications</li>\n</ol>\n">
-    <meta property="twitter:image" content="https://docs.restorecord.com/static/1.png">
+    <meta property="twitter:url" content="https://docs.restorecord.com/guides/setup-a-discord-server/">
+    <meta property="twitter:title" content="Setup A Discord Server">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.3.0.710091571286" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.711318954517" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.3.0.710091571286" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../../resources/js/retype.js?v=2.3.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.3.0.710091571286" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.711318954517" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.711318954517" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -64,7 +59,7 @@
                     <nav class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                             <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://Restorecord.com">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://restorecord.com">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                         <g fill="currentColor">
                                             <path fill-rule="evenodd" d="M11.03 2.59a1.5 1.5 0 011.94 0l7.5 6.363a1.5 1.5 0 01.53 1.144V19.5a1.5 1.5 0 01-1.5 1.5h-5.75a.75.75 0 01-.75-.75V14h-2v6.25a.75.75 0 01-.75.75H4.5A1.5 1.5 0 013 19.5v-9.403c0-.44.194-.859.53-1.144l7.5-6.363zM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v6.25h5v-9.403L12 3.734z"/>
@@ -84,13 +79,13 @@
                                 </a>
                             </li>
                             <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://discord.gg/restore">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://community.restorecord.com/">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                         <g fill="currentColor">
                                             <path fill-rule="evenodd" d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"/><path d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"/>
                                         </g>
                                     </svg>
-                                    <span>Support Server</span>
+                                    <span>Support</span>
                                 </a>
                             </li>
         
@@ -170,7 +165,7 @@
                             <nav>
                                 <ul class="flex flex-wrap justify-center items-center">
                                     <li class="mr-6">
-                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://Restorecord.com">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://restorecord.com">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                                 <g fill="currentColor">
                                                     <path fill-rule="evenodd" d="M11.03 2.59a1.5 1.5 0 011.94 0l7.5 6.363a1.5 1.5 0 01.53 1.144V19.5a1.5 1.5 0 01-1.5 1.5h-5.75a.75.75 0 01-.75-.75V14h-2v6.25a.75.75 0 01-.75.75H4.5A1.5 1.5 0 013 19.5v-9.403c0-.44.194-.859.53-1.144l7.5-6.363zM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v6.25h5v-9.403L12 3.734z"/>
@@ -190,13 +185,13 @@
                                         </a>
                                     </li>
                                     <li class="mr-6">
-                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://discord.gg/restore">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://community.restorecord.com/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                                 <g fill="currentColor">
                                                     <path fill-rule="evenodd" d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"/><path d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"/>
                                                 </g>
                                             </svg>
-                                            <span>Support Server</span>
+                                            <span>Support</span>
                                         </a>
                                     </li>
             
@@ -222,44 +217,36 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="how-to-add-oauth2-link-to-your-bot" class="break-words">
+<doc-anchor-target id="setup-a-discord-server" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-add-oauth2-link-to-your-bot">#</doc-anchor-trigger>
-        <span>How to add OAuth2 Link to your bot</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-a-discord-server">#</doc-anchor-trigger>
+        <span>Setup A Discord Server</span>
     </h1>
 </doc-anchor-target>
-<p><strong>1. Navigate to <a href="https://discord.com/developers/applications">https://discord.com/developers/applications</a></strong></p>
-<p><strong>2. Select your Application</strong>
-<figure class="content-center">
-    <img src="../../static/1.png" alt="" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p><strong>3. Click &quot;OAuth2&quot;</strong>
-<figure class="content-center">
-    <img src="../../static/2.png" alt="" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p><strong>4. Click &quot;Add Redirect&quot;</strong>
-<figure class="content-center">
-    <img src="../../static/3.png" alt="" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p><strong>5. Click this text field.</strong>
-<figure class="content-center">
-    <img src="../../static/4.png" alt="" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
-<p><strong>6. Type &quot;<code>https://restorecord.com/api/callback</code>&quot;</strong></p>
-<p><strong>7. Click &quot;Save Changes&quot;</strong>
-<figure class="content-center">
-    <img src="../../static/5.png" alt="" />
-    <figcaption class="caption"></figcaption>
-</figure>
-</p>
+<doc-anchor-target id="brand-new-server">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#brand-new-server">#</doc-anchor-trigger>
+        <span>Brand new server</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="template">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#template">#</doc-anchor-trigger>
+        <span>Template</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="already-existing-server">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#already-existing-server">#</doc-anchor-trigger>
+        <span>Already Existing Server</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="permissions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#permissions">#</doc-anchor-trigger>
+        <span>Permissions</span>
+    </h3>
+</doc-anchor-target>
 
                                 <div class="flex items-center mt-6 mb-6 clear-both">
                                     <span>
@@ -277,20 +264,6 @@
                             </div>
                             <footer class="clear-both">
                             
-                                <nav class="flex mt-14">
-                                    <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                            <span>
-                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Restore​Cord</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                            
-                                    <div class="w-1/2">
-                                    </div>
-                                </nav>
                             </footer>
                         </main>
                 
@@ -329,6 +302,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "How to add OAuth2 Link", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Setup A Discord Server", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
