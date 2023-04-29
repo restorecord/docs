@@ -1,65 +1,61 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
-  },
-  "favicon": "/favicon.png",
-  "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
-  },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "RestoreCord",
+	"logo": {
+		"dark": "/logo/dark.png",
+		"light": "/logo/light.png"
+	},
+	"favicon": "/favicon.png",
+	"colors": {
+		"primary": "#4f46e5",
+        "dark": "#4f46e5",
+        "light": "#4f46e5",
+		"background": {
+            "dark": "#09090d"
+        }
+	},
+	"topbarLinks": [
+		{
+			"name": "Telegram",
+			"url": "https://t.me/restorecord"
+		}
+	],
+	"topbarCtaButton": {
+		"name": "Dashboard",
+		"url": "https://restorecord.com/dashboard"
+	},
+    "topAnchor": {
+        "name": "Documentation",
+        "icon": "book-open",
+        "iconType": "duotone"
+    },
+	"anchors": [
+		{
+			"name": "Troubleshooting",
+			"icon": "triangle-exclamation",
+			"url": "troubleshooting"
+		}
+	],
+	"navigation": [
+		{
+			"group": "Home",
+			"pages": ["introduction", "features"]
+		},
+		{
+			"group": "Troubleshooting",
+			"pages": ["troubleshooting/home"]
+		}
+	],
+	"footerSocials": {
+        "twitter": "https://twitter.com/restorecord",
+        "github": "https://github.com/restorecord",
+        "instagram": "https://instagram.com/restorecord"
+	},
+    "feedback": {
+        "raiseIssue": true
+    },
+    "modeToggle": {
+        "default": "dark",
+        "isHidden": true
     }
-  ],
-  "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
-  },
-  "anchors": [
-    {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Home",
-      "pages": ["introduction", "features"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
 }
