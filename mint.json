@@ -38,12 +38,20 @@
 	],
 	"navigation": [
 		{
-			"group": "Home",
-			"pages": ["introduction", "features"]
+			"group": "Getting Started",
+			"pages": ["introduction", "about-us", "frequently-asked"]
 		},
 		{
 			"group": "Troubleshooting",
 			"pages": ["troubleshooting/home"]
+		},
+		{
+			"group": "Guides",
+			"pages": ["guides/home", "guides/create-custom-bot", "guides/create-server", "guides/setup-permissions", "guides/create-verify-message"]
+		},
+		{
+			"group": "Other Guides",
+			"pages": ["guides/custom-domain", "guides/secure-bot", "guides/restore-server", "guides/pull-members", "guides/webhook-logs", "guides/setup-slashcommand"]
 		}
 	],
 	"footerSocials": {
