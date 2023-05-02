@@ -34,6 +34,11 @@
 			"name": "Troubleshooting",
 			"icon": "triangle-exclamation",
 			"url": "troubleshooting"
+		},
+		{
+			"name": "Community Forum",
+			"icon": "users",
+			"url": "https://community.restorecord.com/"
 		}
 	],
 	"navigation": [
@@ -47,7 +52,12 @@
 		},
 		{
 			"group": "Guides",
-			"pages": ["guides/home", "guides/create-custom-bot", "guides/create-server", "guides/setup-permissions", "guides/create-verify-message"]
+			"pages": ["guides/home", 
+			{
+                "group": "Setup Custom Bot",
+                "pages":["guides/setup/custom-bot/start","guides/setup/custom-bot/create-application","guides/setup/custom-bot/create-bot", "guides/setup/custom-bot/add-custom-bot"]
+            }, 
+			"guides/create-server", "guides/setup-permissions", "guides/create-verify-message"]
 		},
 		{
 			"group": "Other Guides",
