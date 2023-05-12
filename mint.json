@@ -59,7 +59,7 @@
             },
 			{
                 "group": "Setup Server",
-                "pages":["guides/setup/server/start", "guides/setup/server/invite-bot", "guides/setup/server/bot-permissions", "guides/setup/server/create-server"]
+                "pages":["guides/setup/server/start", "guides/setup/server/invite-bot", "guides/setup/server/select-server", "guides/setup/server/bot-permissions", "guides/setup/server/select-role"]
             }
 			, "guides/setup-permissions", "guides/create-verify-message"]
 		},
