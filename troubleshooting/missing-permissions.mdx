@@ -3,3 +3,39 @@ title: "Missing Permissions"
 description: "A step-by-step guide about restoring your server."
 icon: "rotate-left"
 ---
+
+# Fixing Missing Permissions Error on RestoreCord
+
+If you encounter a "Missing Permissions" error while trying to use RestoreCord, it's essential to troubleshoot the issue to ensure a smooth experience with the bot. This error typically occurs due to one or more of the following reasons:
+
+## 1. The Bot Isn't Invited to Your Server
+
+Make sure you have invited the RestoreCord bot to your Discord server. If you haven't done so, follow these steps:
+
+1. Visit the [RestoreCord Dashboard](https://restr.co/bots).
+2. Click on the "Invite" button to add the bot to your server.
+3. Follow the on-screen prompts to select your server and grant the necessary permissions.
+
+## 2. Insufficient Bot Permissions
+
+The RestoreCord bot requires specific permissions to perform its tasks correctly. It is highly recommended to grant it the "Administrator" permission, as it simplifies the process. However, at a minimum, the bot needs the following permissions:
+
+- **Manage Roles**: This permission allows RestoreCord to give your Member the Verify/Member role.
+- **Create Instant Invite**: This permission is required for verification/adding the Membe to your server.
+
+To check and modify the bot's permissions, follow these steps:
+
+1. Right-click the server in Discord and select "Server Settings."
+2. Click on "Roles" from the left-hand menu.
+3. Locate your Bot's Integrated role and click on it. (Usually named the same as the bot.)
+4. Ensure it has the necessary permissions enabled, especially "Manage Roles" and "Create Instant Invite."
+
+## 3. 2FA Requirement for Moderators
+
+If your Discord server has the "Require 2FA for moderator actions" setting enabled, it may restrict the bot's access. You can adjust this setting as follows:
+
+1. Go to your server settings.
+2. Click on "Safety Setup" in the left-hand menu.
+3. Find the "Require 2FA for moderator actions" setting and toggle it off if necessary.
+
+After addressing these potential issues, try using RestoreCord again. If you still encounter the "Missing Permissions" error, double-check your server and bot configurations to ensure that all requirements are met.
