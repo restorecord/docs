@@ -29,26 +29,26 @@ Once you have added your domain name to Cloudflare, click on the Page Rules butt
 > We will be creating 2 different page rules.
 
 <Tabs>
-  <Tab title="Redirect /api/callback">
-    <Frame>
-      <img src="/images/custom-redirect_1.png" />
-    </Frame>
-    ```text URL:
-      https://example.com/api/callback?code=*&state=*
-    ```
-    ```text Enter destination URL:
-      https://restorecord.com/api/callback?code=$1&state=$2
-    ```
-  </Tab>
   <Tab title="Redirect /verify">
     <Frame>
-      <img src="/images/custom-redirect_2.png" />
+      <img src="/images/custom-redirect_1.png" />
     </Frame>
     ```text URL:
       https://example.com/verify/*
     ```
     ```text Enter destination URL:
       https://restorecord.com/verify/$1
+    ```
+  </Tab>
+  <Tab title="Redirect /api/callback">
+    <Frame>
+      <img src="/images/custom-redirect_2.png" />
+    </Frame>
+    ```text URL:
+      https://example.com/api/callback?code=*&state=*
+    ```
+    ```text Enter destination URL:
+      https://restorecord.com/api/callback?code=$1&state=$2
     ```
   </Tab>
 </Tabs>
