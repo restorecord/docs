@@ -26,30 +26,37 @@ icon: "objects-align-left"
 </Tabs>
 
 ## Setup Webhook Logs
+<Warning>This may not work on mobile!</Warning>
 
-<Warning>This doesnt work on mobile!</Warning>
+<Steps>
+  <Step title="Creating a Webhook">
+    >First **edit** the channel you wish to use Webhook logs on. Go to **Integrations** then click **Create Webhook**.
 
->First **edit** the channel you wish to use Webhook logs on. Go to **Integrations** then click **Create Webhook**.
-
-<Tip>We highly recommend setting this channel to **private**.</Tip>
-<Frame>
-        <img src="/images/setup_webhook-logs_create.png"/>
-</Frame>
->
-> After creating a webhook, **copy** the **Webhook URL** and go to the [RestoreCord Dashboard](https://restorecord.com/dashboard/server)
-
-<Frame>
-        <img src="/images/setup_webhook-logs_copy-url.png"/>
-</Frame>
->
-<Info>You may change the webhook name or profile picture to your preference.</Info>
-
-> **Edit your server** on the Dashboard, scroll down and enable **Webhook logs**.
+    <Tip>We highly recommend setting this channel to **private**.</Tip>
+    <Frame>
+            <img src="/images/setup_webhook-logs_create.png"/>
+    </Frame>
+  </Step>
+  <Step title="Copy Webhook URL">
+    > After creating a webhook, **copy** the **Webhook URL** and go to the [RestoreCord Dashboard](https://restorecord.com/dashboard/server)
+    <Frame>
+            <img src="/images/setup_webhook-logs_copy-url.png"/>
+    </Frame>
+    >
+    <Info>You may change the webhook name or profile picture to your preference.</Info>
+  </Step>
+  
+  <Step title="Add Webhook to RestoreCord">
+    > Go to the [RestoreCord Dashboard](https://restorecord.com/dashboard/server), edit your server on the Dashboard, scroll down and enable **Webhook logs**.
 
 <Frame>
         <img src="/images/setup_webhook-logs_configure.png"/>
 </Frame>
 >
 > After **enabling** webhook logs, **paste the Webhook URL** you have copied before and click **Save**.
+
+  </Step>
+</Steps>
+
 
 <Check>You have successfully configured Webhook logs for your RestoreCord Server.</Check>

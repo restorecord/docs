@@ -12,55 +12,54 @@ Discord is still able to link all RestoreCord bots together, even if you use a c
 
 <Note>Cloudflare is required to use custom domain. If you use something else, he highly suggest switching over to Cloudflare.</Note>
 
-# Step 1 : Adding Cloudflare
-<Info>Create an account if required.</Info>
-> First, head over to Cloudflare Dashboard and add a new site
-<Frame>
-  <img src="/images/cloudflare_add_site.gif" />
-</Frame>
->
->
-# Step 2: Set up Page Rules
-Once you have added your domain name to Cloudflare, click on the Page Rules button in the sidebar.
-<Frame>
-  <img width="350" src="/images/cloudflare_page_rules.gif" />
-</Frame>
- 
-> We will be creating 2 different page rules.
-
-<Tabs>
-  <Tab title="Redirect /verify">
+<Steps>
+  <Step title="Adding Cloudflare">
+    <Info>Create an account if required.</Info>
+    > First, head over to Cloudflare Dashboard and add a new site
     <Frame>
-      <img src="/images/custom-redirect_1.png" />
+      <img src="/images/cloudflare_add_site.gif" />
     </Frame>
-    ```text URL:
-      https://example.com/verify/*
-    ```
-    ```text Enter destination URL:
-      https://restorecord.com/verify/$1
-    ```
-  </Tab>
-  <Tab title="Redirect /api/callback">
+  </Step>
+
+  <Step title="Set up Page Rules">
+    > Once you have added your domain name to Cloudflare, click on the Page Rules button in the sidebar.
     <Frame>
-      <img src="/images/custom-redirect_2.png" />
+      <img width="350" src="/images/cloudflare_page_rules.gif" />
     </Frame>
-    ```text URL:
-      https://example.com/api/callback?code=*&state=*
-    ```
-    ```text Enter destination URL:
-      https://restorecord.com/api/callback?code=$1&state=$2
-    ```
-  </Tab>
-</Tabs>
+    >
+    > We will be creating 2 different page rules.
 
-<Check>Click **Save Page Rule**</Check>
+    <Tabs>
+      <Tab title="Redirect /verify">
+        <Frame>
+          <img src="/images/custom-redirect_1.png" />
+        </Frame>
+        ```text URL:
+          https://example.com/verify/*
+        ```
+        ```text Enter destination URL:
+          https://restorecord.com/verify/$1
+        ```
+      </Tab>
+      <Tab title="Redirect /api/callback">
+        <Frame>
+          <img src="/images/custom-redirect_2.png" />
+        </Frame>
+        ```text URL:
+          https://example.com/api/callback?code=*&state=*
+        ```
+        ```text Enter destination URL:
+          https://restorecord.com/api/callback?code=$1&state=$2
+        ```
+      </Tab>
+    </Tabs>
+    <Check>Click **Save Page Rule**</Check>
+
+  </Step>
 
 
-
-#
-# Step 3: Switching to your Custom Domain
-
-> Go to [RestoreCord Dashboard](https://restorecord.com/dashboard/custombots), edit your custom bot and enter your custom domain settings without `https://`. 
+  <Step title="Switching to your Custom Domain">
+  > Go to [RestoreCord Dashboard](https://restorecord.com/dashboard/custombots), edit your custom bot and enter your custom domain settings without `https://`. 
   <Frame>
       <img src="/images/custom-redirect_3.png" />
   </Frame>
@@ -69,3 +68,6 @@ Once you have added your domain name to Cloudflare, click on the Page Rules butt
   <Frame>
       <img src="images/custom-redirect_4.png" />
   </Frame>
+  </Step>
+</Steps>
+
