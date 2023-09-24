@@ -1,0 +1,101 @@
+---
+title: "Setup a Custom Bot"
+description: "Make it easier for your members to verify on your Discord Server."
+icon: "robot"
+---
+
+<Warning>
+    It's strongly advised to familiarize yourself with our bot security guide before taking any further steps. Keep in mind, if your bot gets disabled, all members will be lost!
+
+    <Card title="Secure your Discord bot: A step-by-step guide" icon="shield" href="/guides/secure-bot">
+        Follow the instructions given to minimize the risk of your bot being disabled.
+    </Card>
+</Warning>
+
+## Creating a Bot
+
+<Steps>
+
+  <Step title="First Step">
+    > First, headover to [Discord Developer Page](https://discord.com/developers/applications) and create a new Application.
+    <Frame>
+        <img src="/images/setup_create_application.png" />
+    </Frame>
+    >
+    <Note>Give your Application an appropriate name, the name will be displayed to your members.</Note>
+  </Step>
+
+  <Step title="Second Step">
+    > After creating an application, you have to create a bot as shown on the screenshot.
+    <Frame>
+    <img src="/images/setup_create_bot.png" />
+    </Frame>
+    >
+    <Tip>You may change the bots name to anything you want, make sure you use an appropriate name. This name will be displayed on the member list.</Tip>
+  </Step>
+
+</Steps>
+
+## Adding your bot to RestoreCord
+
+> Headover to the Dashboard, select Custom Bots in the navigtion bar and click create then follow the requested information shown on the dashboard.
+
+<Info>If you need help finding them, look at the tabs below.</Info>
+
+<Tabs>
+  <Tab title="Bot Name">
+    <Info>You may choose any bot name you want, this name will only be shown on the dashboard.</Info>
+  </Tab>
+  <Tab title="Client ID">
+    <Info>Application -> General Info</Info>
+    <Frame>
+        <img src="/images/setup_find_application-id.png" />
+    </Frame>
+  </Tab>
+  <Tab title="Bot Token">
+    <Info>Application -> Bot -> Reset Token"</Info>
+    <Frame>
+        <img src="/images/setup_find_bot_token.png" />
+    </Frame>
+  </Tab>
+  <Tab title="Client Secret">
+    <Info>Application -> OAuth2 -> General -> Reset Secret</Info>
+    <Frame>
+        <img src="/images/setup_find_client-secret.png" />
+    </Frame>
+  </Tab>
+  <Tab title="Public Key">
+    <Warning>This is only for Business Users.</Warning>
+    <Info>Application -> General Information -> Public Key</Info>
+    <Frame>
+        <img src="/images/setup_find_public_key.png" />
+    </Frame>
+  </Tab>
+</Tabs>
+
+
+## Setup Redirect URL
+
+> After adding your bot on the dashboard, you need to add our Redirect Url on Discords Developer Page as shown:
+
+<Frame caption="Application -> OAuth2 -> General -> Add Redirect">
+    <img src="/images/setup_redirect-url.png" />
+</Frame>
+>
+```
+    https://restorecord.com/api/callback
+    ```
+<Note>
+    If you are using a custom domain. Replace `restorecord.com` with your domain.
+    <Card title="Custom Redirect Domain" icon="link-simple" href="/guides/custom-redirect">
+        A Custom Redirect domain hides our Service from your Users and Discord. 
+    </Card>
+</Note>
+>
+>
+<Check>
+    You have succesfully setup a Discord Bot for RestoreCord, you may continue to creating a server on our dashboard.
+    <Card title="Create a RestoreCord Server" icon="server" href="/guides/create-server">
+        Add your Discord Server on RestoreCord. 
+    </Card>
+</Check>

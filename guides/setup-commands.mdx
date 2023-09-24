@@ -6,35 +6,47 @@ icon: "terminal"
 
 <Warning>Commands and Online status require the [Business Subscription](https://restr.co/upgrade) to be enabled.</Warning>
 
-> Go to the [Discord Developer Portal](https://discord.com/developers/applications) and select your application.
+<Steps>
+  <Step title="Visit Discord's Developer Portal">
+    > Go to the [Discord Developer Portal](https://discord.com/developers/applications) and select your application.
 <Frame>
     <img src="/images/discord-developer-portal.png" />
 </Frame>
+  </Step>
 
-> Scroll down until you see "Public Key" and click on "Copy" to copy the key.
-<Frame>
-    <img src="/images/public-key.png" />
-</Frame>
+  <Step title="Copy Public Key">
+    > Scroll down until you see "Public Key" and click on "Copy" to copy the key.
+    <Frame>
+        <img src="/images/public-key.png" />
+    </Frame>
+  </Step>
 
-> Go to your [RestoreCord Dashboard](https://restr.co/bots) and Edit your bot, then paste the key into the "Public Key" field.
-<Frame>
-    <img src="/images/restorecord-dashboard-public-key.png" />
-</Frame>
+  <Step title="Add Public Key to RestoreCord">
+    > Go to your [RestoreCord Dashboard](https://restr.co/bots) and Edit your bot, then paste the key into the "Public Key" field.
+    <Frame>
+        <img src="/images/restorecord-dashboard-public-key.png" />
+    </Frame>
+  </Step>
 
-> Go back to the [Discord Developer Portal](https://discord.com/developers/applications) and enter the following URL into the "Interactions Endpoint URL" field.
-```
-https://restorecord.com/api/interaction
-```
-<Frame>
-    <img src="/images/interactions-endpoint-url.png" />
-</Frame>
+  <Step title="Add Interaction URL">
+    > Go back to the [Discord Developer Portal](https://discord.com/developers/applications) and enter the following URL into the "Interactions Endpoint URL" field.
+    ```
+    https://restorecord.com/api/interaction
+    ```
+    <Frame>
+        <img src="/images/interactions-endpoint-url.png" />
+    </Frame>
+  </Step>
 
-> Then, go back to the dashboard, edit your custom bot and click the **REFRESH COMMANDS** Button.
+  <Step title="Refresh Commands">
+    > Then, go back to the dashboard, edit your custom bot and click the **REFRESH COMMANDS** Button.
 
-<Frame>
-    <img src="/images/refresh-bot_commands.png" />
-</Frame>
->
+    <Frame>
+        <img src="/images/refresh-bot_commands.png" />
+    </Frame>
+  </Step>
+
+</Steps>
 
 <Check>You have enabled commands for your bot!</Check>
 

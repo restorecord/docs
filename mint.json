@@ -39,6 +39,11 @@
 			"name": "Community Forum",
 			"icon": "users",
 			"url": "https://community.restorecord.com/"
+		},
+		{
+			"name": "Telegram",
+			"icon": "telegram",
+			"url": "https://t.me/restorecord"
 		}
 	],
 	"navigation": [
@@ -55,14 +60,8 @@
 			"pages": [
 				"guides/setup-permissions", 
 				"guides/create-verify-message",
-				{
-					"group": "Setup Custom Bot",
-					"pages":["guides/setup/custom-bot/start","guides/setup/custom-bot/create-application","guides/setup/custom-bot/create-bot", "guides/setup/custom-bot/add-custom-bot", "guides/setup/custom-bot/add-redirect-url"]
-				},
-				{
-            	    "group": "Setup Server",
-            	    "pages":["guides/setup/server/start", "guides/setup/server/invite-bot", "guides/setup/server/select-server", "guides/setup/server/bot-permissions", "guides/setup/server/select-role"]
-            	}
+				"guides/setup/custom-bot",
+				"guides/setup/create-server"
 			]
 		},
 		{
