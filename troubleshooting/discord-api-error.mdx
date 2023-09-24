@@ -3,3 +3,35 @@ title: "Discord API Error"
 description: "Read this Guide to fix a Discord API Error"
 icon: "rotate-left"
 ---
+
+## 403
+    "Oops! The bot is missing permissions. contact the server owner to fix this issue."
+    > Make sure to put the `integrated bot role` above the `verify role`.
+    <Frame>
+        <img src="/images/setup_bot-permissions.png" />
+    </Frame>
+
+## 401 
+    "Oh no! The Bot Token is Invalid. Contact the server owner to fix this issue."
+    > The bot token on our database is invalid. You may reset the token of the same bot used on restorecord and update the token by editing the bot on the dashboard.
+    >
+    <Info>Application -> Bot -> Reset Token"</Info>
+    <Frame>
+        <img src="/images/setup_find_bot_token.png" />
+    </Frame>
+
+## 306 
+    "Sorry, but you can't verify while using a VPN or proxy on this server. Please disable it and try again."
+    > Turn of your vpn. If your member is using iCloud, go to `Settings -> iCloud Account -> iCloud ->  Private Relay`. and turn it off
+    <Frame>
+      <img src="/images/icloud-private-relay.png" />
+    </Frame>
+
+
+## 30001 
+    "You've reached Discord's 100-server limit. Leave a server before verifying again."
+    > The Discord account trying to verify has reached the Discord Server limit. You must leave a server inorder to verify with that Discord Server.
+
+## 777 
+    "Verification requires solving a captcha on this server. Please complete the captcha to proceed."
+    > Retry
