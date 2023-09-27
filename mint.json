@@ -58,15 +58,15 @@
 		{
 			"group": "Guides",
 			"pages": [
-				"guides/setup-permissions", 
-				"guides/create-verify-message",
 				"guides/setup/custom-bot",
-				"guides/setup/create-server"
+				"guides/setup/create-server",
+				"guides/custom-redirect",
+				"guides/secure-bot"
 			]
 		},
 		{
 			"group": "Other Guides",
-			"pages": ["guides/custom-redirect", "guides/secure-bot", "guides/restore-server", "guides/pull-members", "guides/webhook-logs", "guides/setup-commands"]
+			"pages": ["guides/setup-permissions","guides/create-verify-message", "guides/restore-server", "guides/pull-members", "guides/webhook-logs", "guides/setup-commands"]
 		}
 	],
 	"footerSocials": {
