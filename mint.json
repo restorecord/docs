@@ -1,5 +1,4 @@
 {
-	"$schema": "https://mintlify.com/schema.json",
 	"name": "RestoreCord",
 	"logo": {
 		"dark": "/logo/dark.png",
@@ -41,19 +40,29 @@
 			"url": "https://community.restorecord.com/"
 		},
 		{
-			"name": "Telegram",
-			"icon": "telegram",
-			"url": "https://t.me/restorecord"
+			"name": "Support",
+			"icon": "discord",
+			"url": "https://restr.co/discord"
 		}
 	],
 	"navigation": [
 		{
 			"group": "Getting Started",
-			"pages": ["introduction", "about-us", "frequently-asked"]
+			"pages": [
+				"introduction", 
+				"about-us", 
+				"frequently-asked"
+			]
 		},
 		{
 			"group": "Troubleshooting",
-			"pages": ["troubleshooting/home"]
+			"pages": [
+				"troubleshooting/home",
+				"troubleshooting/missing-permissions",
+				"troubleshooting/discord-api-error",
+				"troubleshooting/unknown-role",
+				"troubleshooting/invalid-token"
+			]
 		},
 		{
 			"group": "Guides",
@@ -66,16 +75,26 @@
 		},
 		{
 			"group": "Other Guides",
-			"pages": ["guides/setup-permissions","guides/create-verify-message", "guides/restore-server", "guides/pull-members", "guides/webhook-logs", "guides/setup-commands"]
+			"pages": [
+				"guides/setup-permissions",
+				"guides/create-verify-message",
+				"guides/restore-server",
+				"guides/pull-members",
+				"guides/webhook-logs",
+				"guides/setup-commands"
+			]
 		}
 	],
 	"footerSocials": {
+		"website": "https://restorecord.com",
         "twitter": "https://twitter.com/restorecord",
+		"discord": "https://restr.co/discord",
         "github": "https://github.com/restorecord",
         "instagram": "https://instagram.com/restorecord"
 	},
     "feedback": {
-        "raiseIssue": true
+		"thumbsRating": true,
+        "raiseIssue": false
     },
     "modeToggle": {
         "default": "dark",
