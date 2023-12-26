@@ -59,6 +59,7 @@
 			"pages": [
 				"troubleshooting/home",
 				"troubleshooting/missing-permissions",
+				"troubleshooting/invalid-bot-secret",
 				"troubleshooting/discord-api-error",
 				"troubleshooting/unknown-role",
 				"troubleshooting/invalid-token"
