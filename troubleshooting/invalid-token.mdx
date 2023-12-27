@@ -1,5 +1,50 @@
 ---
-title: "Invalid Token"
-description: "A step-by-step guide about restoring your server."
-icon: "rotate-left"
+title: "Bot Token Reset Guide"
+description: "Simple instructions for resetting and updating your bot's token on RestoreCord."
+icon: "refresh"
 ---
+
+# How to Reset and Update Your Bot's Token on RestoreCord
+
+Facing difficulties with your bot or need to reset its token for security reasons? This guide will assist you in resetting and updating your bot's token effectively, a necessary step for maintaining secure and smooth operation of your bot on RestoreCord.
+
+<Steps>
+  <Step title="Identifying the Correct Bot">
+    Ensure you are updating the correct bot's settings:
+
+    1. Open [Discord Developer Portal](https://discord.com/developers/applications) in your browser.
+    2. Sign in with your Discord account.
+    3. Select "Applications" and pick your bot.
+    4. Confirm the "Client ID" matches with your RestoreCord bot's ID.
+
+    This verification is key to avoid changes to the wrong bot.
+  </Step>
+
+  <Step title="Generating a New Bot Token">
+    The bot token is essential for bot operations. Follow these steps to reset it:
+
+    1. Within the Discord Developer Portal, click on the "Bot" tab for your application.
+    2. Find the "Token" section.
+    3. Press "Reset Token" and then confirm in the popup.
+
+    <Frame>
+      <img src="/images/setup_find_bot_token.png" />
+    </Frame>
+
+    Remember, your old token will stop working immediately after the reset.
+  </Step>
+
+  <Step title="Applying the New Token on RestoreCord">
+    Update RestoreCord with the new token:
+
+    1. Copy the new token from the Discord Developer Portal.
+    2. Visit [RestoreCord Bot Dashboard](https://restr.co/bots).
+    3. Go to your bot's settings.
+    4. Enter the new token in the "Bot Token" section and save.
+
+    Updating the token fixes issues between your bot and RestoreCord.
+  </Step>
+
+</Steps>
+
+<Tip>Changes might take up to one hour to take effect. If problems persist after this period, please reach out to us on [**Discord**](https://restr.co/discord) or seek help at the [RestoreCord Community Forum](https://community.restorecord.com).</Tip>
