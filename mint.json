@@ -1,10 +1,9 @@
 {
 	"name": "RestoreCord",
 	"logo": {
-		"dark": "https://cdn.restorecord.com/logo.png",
-		"light": "https://cdn.restorecord.com/logo.png"
+		"dark": "https://cdn.restorecord.com/logo.png"
 	},
-	"favicon": "https://cdn.restorecord.com/favicon.png",
+	"favicon": "/favicon.png",
 	"colors": {
 		"primary": "#4f46e5",
         "dark": "#4f46e5",
