@@ -10,7 +10,7 @@
         "dark": "#4f46e5",
         "light": "#4f46e5",
 	    "background": {
-            "dark": "#09090d"
+            "dark": "#0a0a0a"
         }
 	},
 	"topbarLinks": [
@@ -90,8 +90,7 @@
 		"website": "https://restorecord.com",
         "twitter": "https://twitter.com/restorecord",
 		"discord": "https://restr.co/discord",
-        "github": "https://github.com/restorecord",
-        "instagram": "https://instagram.com/restorecord"
+        "github": "https://github.com/restorecord"
 	},
     "feedback": {
 		"thumbsRating": true,
