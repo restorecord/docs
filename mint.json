@@ -1,16 +1,13 @@
 {
 	"name": "RestoreCord",
-	"logo": {
-		"dark": "/logo/dark.png",
-		"light": "/logo/light.png"
-	},
+	"logo": "/logo.png",
 	"favicon": "/favicon.png",
 	"colors": {
 		"primary": "#4f46e5",
         "dark": "#4f46e5",
         "light": "#4f46e5",
 		"background": {
-            "dark": "#09090d"
+            "dark": "#0a0a0a"
         }
 	},
 	"topbarLinks": [
