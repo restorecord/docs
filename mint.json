@@ -1,7 +1,10 @@
 {
 	"name": "RestoreCord",
-	"logo": "/logo.png",
-	"favicon": "/favicon.png",
+	"logo": {
+		"dark": "https://cdn.restorecord.com/logo.png",
+		"light": "https://cdn.restorecord.com/logo.png"
+	},
+	"favicon": "/images/favicon.png",
 	"colors": {
 		"primary": "#4f46e5",
         "dark": "#4f46e5",
@@ -14,6 +17,10 @@
 		{
 			"name": "Telegram",
 			"url": "https://t.me/restorecord"
+		},
+		{
+			"name": "Discord",
+			"url": "https://restr.co/discord"
 		}
 	],
 	"topbarCtaButton": {
@@ -32,9 +39,9 @@
 			"url": "troubleshooting"
 		},
 		{
-			"name": "Community Forum",
+			"name": "Discord",
 			"icon": "users",
-			"url": "https://community.restorecord.com/"
+			"url": "https://restr.co/discord"
 		},
 		{
 			"name": "Support",
